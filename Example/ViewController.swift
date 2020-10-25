@@ -143,7 +143,9 @@ class ViewController: UIViewController {
 
             GalleryConfigurationItem.statusBarHidden(true),
             GalleryConfigurationItem.displacementKeepOriginalInPlace(false),
-            GalleryConfigurationItem.displacementInsetMargin(50)
+            GalleryConfigurationItem.displacementInsetMargin(50),
+            
+            GalleryConfigurationItem.deleteButtonMode(.none)
         ]
     }
 }
@@ -170,6 +172,10 @@ extension ViewController: GalleryItemsDataSource {
 }
 
 extension ViewController: GalleryItemsDelegate {
+    func didPressSharedButton() {
+        print("Share action")
+    }
+    
 
     func removeGalleryItem(at index: Int) {
 

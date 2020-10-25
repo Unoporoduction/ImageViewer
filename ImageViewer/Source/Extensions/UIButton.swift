@@ -114,4 +114,12 @@ extension UIButton {
 
         return button
     }
+    
+    static func shareButton() -> UIButton {
+
+        let button = UIButton(frame: CGRect(origin: CGPoint.zero, size: CGSize(width: 80, height: 50)))
+        button.setTitle("Share", for: .normal)
+
+        return button
+    }
 }
