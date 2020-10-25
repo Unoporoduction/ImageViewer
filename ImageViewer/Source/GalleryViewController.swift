@@ -461,7 +461,7 @@ open class GalleryViewController: UIPageViewController, ItemControllerDelegate {
     }
     
     @objc fileprivate func shareItem() {
-        itemsDelegate?.didPressSharedButton()
+        itemsDelegate?.didPressSharedButton(at: currentIndex)
     }
     
     //ThumbnailsimageBlock

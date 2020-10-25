@@ -172,8 +172,8 @@ extension ViewController: GalleryItemsDataSource {
 }
 
 extension ViewController: GalleryItemsDelegate {
-    func didPressSharedButton() {
-        print("Share action")
+    func didPressSharedButton(at index: Int) {
+        print("Share action at \(index)")
     }
     
 
