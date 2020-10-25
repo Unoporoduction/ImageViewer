@@ -26,6 +26,12 @@ pod 'ImageViewer'
 github "Krisiacik/ImageViewer"
 ```
 
+### Swift Package Manager
+
+```swift
+url: "https://github.com/Unoporoduction/ImageViewer.git"
+```
+
 ## Sample Usage
 
 For a detailed example, see the [Example](https://github.com/Krisiacik/ImageViewer/tree/master/Example)!
