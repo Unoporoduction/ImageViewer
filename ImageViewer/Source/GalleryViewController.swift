@@ -151,8 +151,8 @@ open class GalleryViewController: UIPageViewController, ItemControllerDelegate {
                 
                 switch buttonMode {
                 
-                case .none:                 deleteButton = nil
-                case .custom(let button):   deleteButton = button
+                case .none:                 shareButton = nil
+                case .custom(let button):   shareButton = button
                 case .builtIn:              break
                 }
                 
